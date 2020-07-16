@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HwAv/kc5Sbgx+BP+Rcrmyl4KlHy52urIr5qnjUM+tylPMZSAtGU67oCAmCGoMqCQDkhUlAxoSpXfvUZcpT5tQQ==",
+  "success": true,
+  "projectFilePath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Infrastructure\\WorkService.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
