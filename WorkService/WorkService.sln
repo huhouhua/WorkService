@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkService.API", "WorkService.API\WorkService.API.csproj", "{4A057795-5D95-47BB-921C-7FB8BC59611A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkService.API", "WorkService.API\WorkService.API.csproj", "{4A057795-5D95-47BB-921C-7FB8BC59611A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkService.Application", "WorkService.Application\WorkService.Application.csproj", "{DAAAA7A7-EED6-4AE9-B7ED-AEAC6C8B2394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkService.Application", "WorkService.Application\WorkService.Application.csproj", "{DAAAA7A7-EED6-4AE9-B7ED-AEAC6C8B2394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkService.Domain", "WorkService.Domain\WorkService.Domain.csproj", "{1CF977D4-B8F9-4F69-8B8F-0B8827FB7B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkService.Domain", "WorkService.Domain\WorkService.Domain.csproj", "{1CF977D4-B8F9-4F69-8B8F-0B8827FB7B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkService.Infrastructure", "WorkService.Infrastructure\WorkService.Infrastructure.csproj", "{0148055D-D761-4D52-89FE-0156CAA5A909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkService.Infrastructure", "WorkService.Infrastructure\WorkService.Infrastructure.csproj", "{0148055D-D761-4D52-89FE-0156CAA5A909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkService.UnitTest", "WorkService.UnitTest\WorkService.UnitTest.csproj", "{7CFC3A43-E173-496B-A7D2-7A95ED500829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkService.UnitTest", "WorkService.UnitTest\WorkService.UnitTest.csproj", "{7CFC3A43-E173-496B-A7D2-7A95ED500829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{5C9CF71A-51C9-4FAD-B69C-F7C7ED21A585}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

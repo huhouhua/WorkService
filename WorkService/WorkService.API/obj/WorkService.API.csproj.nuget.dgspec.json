@@ -14,6 +14,7 @@
         "outputPath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "F:\\开发系统\\WorkService\\WorkService\\NuGet.Config",
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -22,6 +23,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.125.118:889/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -100,6 +103,7 @@
         "outputPath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "F:\\开发系统\\WorkService\\WorkService\\NuGet.Config",
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -108,6 +112,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.125.118:889/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -163,6 +169,7 @@
         "outputPath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "F:\\开发系统\\WorkService\\WorkService\\NuGet.Config",
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -171,6 +178,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.125.118:889/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -222,6 +231,7 @@
         "outputPath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "F:\\开发系统\\WorkService\\WorkService\\NuGet.Config",
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -230,6 +240,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.125.118:889/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
