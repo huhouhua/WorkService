@@ -1,0 +1,14 @@
+F:\开发系统\WorkService\WorkService\WorkService.Application\bin\Debug\netstandard2.0\WorkService.Application.deps.json
+F:\开发系统\WorkService\WorkService\WorkService.Application\bin\Debug\netstandard2.0\WorkService.Application.dll
+F:\开发系统\WorkService\WorkService\WorkService.Application\bin\Debug\netstandard2.0\WorkService.Application.pdb
+F:\开发系统\WorkService\WorkService\WorkService.Application\bin\Debug\netstandard2.0\WorkService.Domain.dll
+F:\开发系统\WorkService\WorkService\WorkService.Application\bin\Debug\netstandard2.0\WorkService.Infrastructure.dll
+F:\开发系统\WorkService\WorkService\WorkService.Application\bin\Debug\netstandard2.0\WorkService.Domain.pdb
+F:\开发系统\WorkService\WorkService\WorkService.Application\bin\Debug\netstandard2.0\WorkService.Infrastructure.pdb
+F:\开发系统\WorkService\WorkService\WorkService.Application\obj\Debug\netstandard2.0\WorkService.Application.csprojAssemblyReference.cache
+F:\开发系统\WorkService\WorkService\WorkService.Application\obj\Debug\netstandard2.0\WorkService.Application.AssemblyInfoInputs.cache
+F:\开发系统\WorkService\WorkService\WorkService.Application\obj\Debug\netstandard2.0\WorkService.Application.AssemblyInfo.cs
+F:\开发系统\WorkService\WorkService\WorkService.Application\obj\Debug\netstandard2.0\WorkService.Application.csproj.CoreCompileInputs.cache
+F:\开发系统\WorkService\WorkService\WorkService.Application\obj\Debug\netstandard2.0\WorkService.Application.csproj.CopyComplete
+F:\开发系统\WorkService\WorkService\WorkService.Application\obj\Debug\netstandard2.0\WorkService.Application.dll
+F:\开发系统\WorkService\WorkService\WorkService.Application\obj\Debug\netstandard2.0\WorkService.Application.pdb
