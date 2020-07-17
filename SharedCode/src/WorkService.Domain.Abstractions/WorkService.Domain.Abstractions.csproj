@@ -2,10 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>领域的抽象层 定义一些基类或者接口，或者是领域事件的接口、领域事件的处理的接口、还有Entity的接口和Entity的基类</Description>
+    <Company>https://github.com/huhouhua</Company>
+    <Authors>huhouhua</Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="8.0.2" />
   </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="del $(ProjectDir)$(OutDir)..\*.nupkg /s/q&#xD;&#xA;exit 0" />
+  </Target>
 
 </Project>

@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>huhouhua</Authors>
+    <Company>https://github.com/huhouhua</Company>
+    <Description>基础设施的核心层 仓储、EFContext定义一些共享的代码</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,5 +20,9 @@
   <ItemGroup>
     <ProjectReference Include="..\WorkService.Domain.Abstractions\WorkService.Domain.Abstractions.csproj" />
   </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="del $(ProjectDir)$(OutDir)..\*.nupkg /s/q&#xD;&#xA;exit 0" />
+  </Target>
 
 </Project>
