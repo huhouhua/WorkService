@@ -200,7 +200,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.125.118:889/nuget": {},
+        "http://47.95.243.31:9888/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

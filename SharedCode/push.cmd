@@ -1,0 +1,1 @@
+dotnet nuget push *.nupkg --skip-duplicate -k ee28314c-f7fe-2550-bd77-e09eda3d0119 -s http://47.95.243.31:9888
