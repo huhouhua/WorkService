@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cX+vugAhHJRDquVHZCGAym5F4pz0zZgSX0q0mDWIAPY+9gNAhUen9RcQu7p95Wle2cczZFwanWrkWQ6QwqXBXg==",
+  "dgSpecHash": "OpjEVzip+EHC2G9FP7xB+nuWLWA5pHhmk8JZpaWbSyOenmPjJ7t2pd7xtXmbqSMEhvtKCFhfnjvlV5qANuz2XQ==",
   "success": true,
   "projectFilePath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Domain\\WorkService.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr\\8.0.2\\mediatr.8.0.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\workservice.domain.abstractions\\1.0.0\\workservice.domain.abstractions.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

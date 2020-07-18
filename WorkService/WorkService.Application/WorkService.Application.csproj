@@ -5,10 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Models\" />
-    <Folder Include="DomainEventHandlers\" />
-    <Folder Include="IntegrationEvents\" />
+    <Folder Include="DomainEventHandlers\JobTask\" />
+    <Folder Include="IntegrationEvents\JobTask\" />
     <Folder Include="Queries\ViewModels\" />
+    <Folder Include="Queries\JobTask\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WorkService.Domain\WorkService.Domain.csproj" />
+    <ProjectReference Include="..\WorkService.Infrastructure\WorkService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

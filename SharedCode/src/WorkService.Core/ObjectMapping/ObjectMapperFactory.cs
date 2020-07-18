@@ -7,11 +7,11 @@ namespace WorkService.Core.ObjectMapping
     public class ObjectMapperFactory
     {
         private static IObjectMapper _objectMapper { get; set; }
-        public static void SetObjectMapper(IObjectMapper objectMapper)
+        internal static void SetObjectMapper(IObjectMapper objectMapper)
         {
             _objectMapper = objectMapper;
         }
-        public static IObjectMapper GetObjectMapper()
+        internal static IObjectMapper GetObjectMapper()
         {
             return _objectMapper;
         }

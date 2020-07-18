@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Events\" />
+    <Folder Include="JobModule\Events\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WorkService.Infrastructure\WorkService.Infrastructure.csproj" />
+    <PackageReference Include="WorkService.Domain.Abstractions" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

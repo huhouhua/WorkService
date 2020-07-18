@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EntityConfigurations\" />
-    <Folder Include="Repositories\" />
+    <PackageReference Include="WorkService.Infrastructure.Core" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkService.Domain\WorkService.Domain.csproj" />
   </ItemGroup>
 
 </Project>

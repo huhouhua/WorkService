@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "F:\\开发系统\\WorkService\\WorkService\\WorkService.Domain\\WorkService.Domain.csproj": {
-                "projectPath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Domain\\WorkService.Domain.csproj"
+              "F:\\开发系统\\WorkService\\WorkService\\WorkService.Infrastructure\\WorkService.Infrastructure.csproj": {
+                "projectPath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Infrastructure\\WorkService.Infrastructure.csproj"
               }
             }
           }
@@ -95,11 +95,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "F:\\开发系统\\WorkService\\WorkService\\WorkService.Infrastructure\\WorkService.Infrastructure.csproj": {
-                "projectPath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Infrastructure\\WorkService.Infrastructure.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -116,6 +112,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "WorkService.Domain.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
@@ -157,7 +157,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\开发系统\\WorkService\\WorkService\\WorkService.Domain\\WorkService.Domain.csproj": {
+                "projectPath": "F:\\开发系统\\WorkService\\WorkService\\WorkService.Domain\\WorkService.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -174,6 +178,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "WorkService.Infrastructure.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

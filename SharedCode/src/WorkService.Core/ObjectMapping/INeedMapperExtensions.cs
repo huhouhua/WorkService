@@ -19,7 +19,6 @@ namespace WorkService.Core.ObjectMapping
             return ObjectMapperFactory.GetObjectMapper().MapTo<TSource, TDestination>(source, null);
         }
 
-
         public static TDestination MapTo<TSource, TDestination>(this TSource source, TDestination destination)
            where TSource : INeedMapper
            where TDestination : class, new()

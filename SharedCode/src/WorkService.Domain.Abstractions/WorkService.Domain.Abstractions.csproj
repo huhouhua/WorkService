@@ -3,9 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <LangVersion>8.0</LangVersion>
     <Description>领域的抽象层 定义一些基类或者接口，或者是领域事件的接口、领域事件的处理的接口、还有Entity的接口和Entity的基类</Description>
     <Company>https://github.com/huhouhua</Company>
     <Authors>huhouhua</Authors>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
